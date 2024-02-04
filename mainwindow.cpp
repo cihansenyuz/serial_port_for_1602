@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    setWindowTitle("Serial Port Com");
+    setWindowTitle("User Interface for 1602 LCD");
     getComPorts();
 
     QButtonGroup settingsGroup1,settingsGroup2,settingsGroup3;
